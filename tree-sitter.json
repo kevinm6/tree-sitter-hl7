@@ -1,0 +1,38 @@
+{
+  "grammars": [
+    {
+      "name": "hl7",
+      "camelcase": "HL7",
+      "scope": "source.hl7",
+      "path": ".",
+      "file-types": ["hl7"],
+      "injection-regex": "^(hl7)|(HL7)$",
+      "first-line-regex": "^MSH",
+      "highlights": [
+        "queries/highlights.scm"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "Apache-2.0",
+    "description": "Health Level 7 Messages",
+    "authors": [
+      {
+        "name": "Kenton Hamaluik",
+        "email": "kenton@hamaluik.ca"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/hamaluik/tree-sitter-hl7"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
