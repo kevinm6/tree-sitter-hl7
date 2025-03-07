@@ -47,23 +47,11 @@
       "required": true,
       "types": [
         {
-          "type": "field",
-          "named": true
-        },
-        {
-          "type": "field_separator",
-          "named": true
-        },
-        {
           "type": "msh",
           "named": true
         },
         {
           "type": "segment",
-          "named": true
-        },
-        {
-          "type": "segment_separator",
           "named": true
         }
       ]
@@ -78,11 +66,19 @@
       "required": true,
       "types": [
         {
+          "type": "field",
+          "named": true
+        },
+        {
+          "type": "field_separator",
+          "named": true
+        },
+        {
           "type": "msh_controls",
           "named": true
         },
         {
-          "type": "msh_name",
+          "type": "segment_separator",
           "named": true
         }
       ]
@@ -202,6 +198,10 @@
     "named": false
   },
   {
+    "type": "MSH",
+    "named": false
+  },
+  {
     "type": "component_separator",
     "named": true
   },
@@ -211,10 +211,6 @@
   },
   {
     "type": "field_separator",
-    "named": true
-  },
-  {
-    "type": "msh_name",
     "named": true
   },
   {
